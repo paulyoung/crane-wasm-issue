@@ -94,7 +94,7 @@
                 pkgs.gzip
               ];
               cargoExtraArgs = "--package ${pname}";
-              cargoBuildCommand = "cargoWithProfile build --target wasm32-unknown-unknown";
+              cargoBuildCommand = "cargoWithProfile build --lib --target wasm32-unknown-unknown";
               doCheck = true;
               doDist = true;
               distPhase = ''
