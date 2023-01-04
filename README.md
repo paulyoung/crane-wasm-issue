@@ -2,7 +2,9 @@
 
 Demonstrates the issue described at https://github.com/ipetkov/crane/issues/207
 
-This branch builds a `[lib]` since that has been working using `naersk` for some time. Renaming `lib.rs` to `main.rs`, adding `fn main() {}`, and building a `[[bin]]` would also be acceptable but that doesn't work using `crane` either.
+This branch builds a `[lib]` since that has been working using `naersk` for some time.
+
+Renaming `lib.rs` to `main.rs`, adding `fn main() {}`, and building a `[[bin]]` would also be acceptable but that doesn't work using `crane` either. See the [`bin`](https://github.com/paulyoung/crane-wasm-issue/tree/bin) branch.
 
 ## Usage
 
