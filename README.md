@@ -3,7 +3,7 @@
 Demonstrates the issue described at https://github.com/ipetkov/crane/issues/207
 
 ***
-UPDATE: building with `--lib` (or `--bin`) fixes the issue. Without those flags, only the dependencies are built (`foo-deps**).
+UPDATE: building with `--lib` (or `--bin`) fixes the issue. Without those flags, only the dependencies are built (`foo-deps`).
 ***
 
 This branch builds a `[lib]` since that has been working using `naersk` for some time.
