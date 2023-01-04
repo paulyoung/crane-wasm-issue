@@ -2,6 +2,10 @@
 
 Demonstrates the issue described at https://github.com/ipetkov/crane/issues/207
 
+***
+UPDATE: building with `--bin` (or `--lib`) fixes the issue. Without those flags, only the dependencies are built (`foo-deps**).
+***
+
 This branch builds a `[[bin]]` in case that can provide a path forward. This works using `naersk` but not when using `crane`.
 
 ## Usage
