@@ -2,6 +2,8 @@
 
 use ic_cdk_macros::{init, post_upgrade, pre_upgrade, query, update};
 
+fn main() {}
+
 #[init]
 pub fn init() {
     ic_cdk::println!("init");

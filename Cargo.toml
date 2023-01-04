@@ -4,9 +4,8 @@ version = "0.1.0"
 authors = ["Paul Young <84700+paulyoung@users.noreply.github.com>"]
 edition = "2018"
 
-[lib]
-# rlib due to: https://github.com/rust-lang/cargo/issues/6659
-crate-type = ["cdylib", "rlib"]
+[[bin]]
+name = "foo"
 
 [dependencies]
 ic-cdk = "0.5.6"
